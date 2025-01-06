@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="chefcss.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="logowhite.png">
+            <ul>
+                <li><a href="home.html" >HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="chef.html" class="active">CHEFS</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+            </ul>
+            </nav>  
+        </header>
+
+       <div class="rectangle1">
+        <p class="chefs">Chefs</p>
+        <div class="container1">
+             <p>The Executive Chef is perhaps among the most essential jobs in all of the food industry.<br>
+                They are responsible for the food that is purchased, prepared, cooked, and served to the<br>
+                customers.They Manage the food quality and stock in cooking area, organizing the food<br>
+                and observing the quality of the kitchen area hardware. <br>
+                <br>
+                <br>
+                <br>
+                -Bobby Flay-
+
+             </p>
+             <img class="mainchef"  src="main chef.jpg">
+        </div>
+        <div class="container2">
+            <img class="assistantchef"  src="assistant chef.png">
+            <p>The Executive Chef is perhaps among the most essential jobs in all of the food industry.<br>
+                They are responsible for the food that is purchased, prepared, cooked, and served to the<br>
+                customers.They Manage the food quality and stock in cooking area, organizing the food<br>
+                and observing the quality of the kitchen area hardware. <br>
+                <br>
+                <br>
+                <br>
+                -Paul Bocuse-
+
+             </p>
+       </div>
+       <div class="container3">
+       <div class="box">
+<img  class="image" src="chef1.jpg">
+<p>Food designer<br>
+    -Vikas Khanna-</p>
+
+       </div>
+       <div class="box">
+        <img   class="image" src="chef2.jpg">
+        <p>Guider<br>
+        -David Chang-</p>
+       </div>
+       <div class="box">
+        <img   class="image" src="chef3.jpg">
+        <p>Supplier<br>
+        Rachael Ray</p>
+       </div>
+
+
+       </div>
+       
+       </div>
+       <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky",window.scrollY > 0);
+        })
+      </script>
+
+    </body>
+</html>

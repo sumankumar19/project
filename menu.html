@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="menudesign.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="logowhite.png">
+            <ul>
+                <li><a href="home.html" >HOME</a></li>
+                <li><a href="menu.html" class="active">MENU</a></li>
+                <li><a href="chef.html">CHEFS</a></li>
+                <li><a href="about us.html" >ABOUT US</a></li>
+            </ul>
+            </nav>  
+        </header>
+
+        <div class="rectangle1">
+         <p class="menu">Menu</p>
+         <div class="container1">
+            <div class="box">
+                <img class="fooditems1" src="asian noodles.jpg">
+                <p>Asian Noobles</p>
+                <p>250/-</p>
+            </div>
+            <div class="box">
+                
+                <img class="fooditems1" src="burger.jpg">
+                <p>Burger</p>
+                <p>150/-</p>
+            </div>
+            <div class="box">
+                <img class="fooditems1" src="shawarma.jpg">
+                <p>Shawarma</p>
+                <p>80/-</p>
+            </div>
+            <div class="box">
+                <img class="fooditems1" src="paneer masala.jpg">
+                <p>Paneer Masala</p>
+                <p>160/-</p>
+            </div>
+         </div>
+
+         <div class="container2">
+            <div class="box1">
+                <img class="fooditems2" src="sandwich 2.jpg">
+                <p>Sandwich</p>
+                <p>100/-</p>
+            </div>
+            <div class="box1">
+                <img class="fooditems2" src="strawberry mojito.jpg">
+                <p>Strawberry Mojito</p>
+                <p>80/-</p>
+            </div>
+            <div class="box1">
+                <img class="fooditems2" src="donut 2.jpg">
+                <p>Donuts</p>
+                <p>90/-</p>
+            </div>
+            <div class="box1">
+                <img class="fooditems2" src="chocolate milk shake.jpg">
+                <p>Chocolate milk shake</p>
+                <p>60/-</p>
+            </div>
+         </div>
+
+         <div class="container3">
+            <div class="box2">
+                <img class="fooditems3" src="pasta.jpg">
+                <p>Pasta</p>
+                <p>80/-</p>
+            </div>
+            <div class="box2">
+                <img class="fooditems3" src="momos.jpg">
+                <p>momos</p>
+                <p>40/-</p>
+            </div>
+            <div class="box2">
+                <img class="fooditems3" src="pani puri.jpg">
+                <p>Pani Puri</p>
+                <p>35/-</p>
+            </div>
+            <div class="box2">
+                <img class="fooditems3" src="chicken nuggets.jpg">
+                <p>Chicken Nuggets</p>
+                <p>200/-</p>
+            </div>
+         </div>
+
+
+        </div>
+
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+              var nav = document.querySelector("nav");
+              nav.classList.toggle("sticky",window.scrollY > 0);
+            })
+          </script>
+
+        
+
+
+    </body>
+</html>

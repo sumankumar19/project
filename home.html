@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="homecss.css">
+        <title>RESTAURANT WEBSITE</title>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <img src="logowhite.png">
+        <ul>
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="chef.html">CHEFS</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+        </ul>
+        </nav>  
+
+        <div class="slider">
+          <div class="slides">
+
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+       <div class="slide first">
+              <!-- <p class="text-1"> The Best Food In Town Awaits </p> -->
+              <img src="backgroundimg.jpg">
+      </div>
+
+      <div class="slide">
+          <!-- <p  class="text-2">iuhloh</p> -->
+          <img src="peakpx.jpg">
+      </div>
+
+      <div class="slide">
+              <!-- <p  class="text-3">hgqoiyp</p> -->
+              <img src="image1.jpg">
+      </div>
+
+      <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+      </div>
+
+
+          </div>
+
+
+          
+<div class="manual-navigation">
+  <label for="radio1" class="manual-btn"></label>
+  <label for="radio2" class="manual-btn"></label>
+  <label for="radio3" class="manual-btn"></label>
+</div>
+        </div>
+           
+    </header>
+    <section>
+    <div class="rectangle1">
+     <p class="specialtext">Special Offers</p>
+     <div class="container">
+
+      <div class="food">
+     <div class="box">
+        <img src="food12.png" alt="chicken roast biriyani">
+      </div>
+      <p class="text">Chicken Roast Biriyani<br>200/-</p>
+    </div>
+
+    <div class="food">
+      <div class="box">
+         <img src="food3.jpg" alt="chicken roast biriyani">
+       </div>
+       <p class="text">Sandwich<br>230/-</p>
+     </div>
+
+     <div class="food">
+      <div class="box">
+         <img src="food4.jpg" alt="chicken roast biriyani">
+       </div>
+       <p class="text">Pizza<br>100/-</p>
+     </div>
+
+     <div class="food">
+      <div class="box">
+         <img src="food5.jpg" alt="chicken roast biriyani">
+       </div>
+       <p class="text">Cup Cake<br>99/-</p>
+     </div>
+
+    </div> 
+   
+    </div>
+ </section>
+
+
+<section>
+ <div class="rectangle2">
+    <p class="service">Our Service</p>
+    <div class="container1">
+        <div class="square1">
+        <img id="image1"  src="image1.png">
+        <p id="sqtxt1"><b>Free Home Delivery</b></p>
+      <p id="sqtxt2">Get Your Food Any Time Any Were</p>
+      <p id="sqtxt3"><a href="">Read More</a></p>
+        </div>  
+
+        <div class="square1">
+          <img id="image2"  src="image2.png">
+          <p id="sqtxt4"><b>30 Days Return Service</b></p>
+        <p id="sqtxt5">Return service is available</p>
+        <p id="sqtxt6"><a href="">Read More</a></p>
+          </div>
+
+          <div class="square1">
+            <img id="image3"  src="image3.png">
+            <p id="sqtxt7"><b>Money Back Guaranted</b></p>
+          <p id="sqtxt8"> Canceling after an order get money back</p>
+          <p id="sqtxt9"><a href="">Read More</a></p>
+            </div>
+    </div>
+ </div>
+</section>
+
+
+
+
+<section>
+  <div class="rectangle3">
+    <p class="todaytxt">Today's Special</p>
+    <div class="maincontainer">
+    <div class="container2">
+      <div class="food5">
+        <img src="mojito.jpeg" alt="">
+        <p class="mojitotxt">Mint Mojito<br>
+          <br>
+          <br>
+        This minty Mojito Mocktail has<br> all the flavour and none of booze!
+      </p>
+      </div>
+      
+      <div class="food6">
+        <img src="Thali-8.jpg" alt="">
+        <p class="mojitotxt">Thali<br>
+          <br>
+          <br>
+        This minty Mojito Mocktail has all the flavour
+      </div>
+    </div>
+
+      <div class="container3">
+        <div class="food7">
+          <img src="burrito.jpg" alt="">
+          <p class="mojitotxt">Burrito<br>
+            <br>
+            <br>
+          
+        </div>
+      <div class="food8">
+        <img src="noodles.jpg" alt="">
+        <p class="mojitotxt">Noodles<br>
+          <br>
+          <br>
+        This minty Mojito Mocktail has all the flavour
+      </div>
+    </div>
+  </div>
+  </div>
+</section> 
+
+
+<section>
+<div class="rectangle4">
+  <p class="chefs">chefs</p>
+  <div class="container4">
+    <p class="cheftxt">Our Chefs offers you perfect cooking, best served dishes with<br> fresh ingredients and old recipes.
+       We have only carefully<br> sourced and seasonal ingredients in our dispoal to<br> make rustic dishes. We
+       provide you with daily self-made bread, sourdough pizza,<br> roasted fish-meat-vegetables and many 
+       more.
+    </p>
+    <img class="chefimg" src="chefs.jpg">
+  </div>
+
+</div>
+</section>
+
+
+<script type="text/javascript">
+    window.addEventListener("scroll",function(){
+      var nav = document.querySelector("nav");
+      nav.classList.toggle("sticky",window.scrollY > 0);
+    })
+  </script>
+
+
+
+<script>
+let count =1;
+document.getElementById("radio1").checked = true;
+
+setInterval(function(){
+  nextImage();
+}, 2000)
+
+function nextImage () {
+    count++;
+    if(count>3) {
+        count=1;
+    }
+
+    document.getElementById("radio"+count).checked = true;
+}
+
+
+
+</script>
+    </body>
+    </html>

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);    
+}
+
+.rectangle1 {
+    background-color: black;
+    width: 100%;
+    height: 200vh;
+
+}
+
+nav {
+    font-family: Itim;
+    position: fixed;    
+    top: 0;
+    left: 0; 
+    right: 500px; 
+    width: 100%;
+    z-index: 10000;
+    justify-content:space-between ;
+    align-items: center;
+    transition: 0.6s; 
+
+  }
+
+  nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: right;
+    text-decoration: none;
+  margin-top: 40px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+  }
+
+
+  nav.sticky {
+    margin-bottom: 40px;
+    padding: 20px  0px 20px;
+    background: black;
+  }
+
+  nav ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+  }
+
+  nav :hover {
+    color: greenyellow;
+  }
+
+  nav.sticky ul li a {
+    color: rgb(255, 255, 255);
+  }
+
+  nav.sticky :hover {
+    color: greenyellow;
+  }
+
+  nav .active {
+    color: greenyellow;
+  }
+
+  nav.sticky .active {
+    color: greenyellow;
+  }
+
+nav img {
+    padding-left: 60px;
+    padding-top: 10px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.aboutus {
+    font-family: Kapakana;
+    color: rgb(233, 171, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.aboutrestaurent1 {
+    padding-top: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: IM FELL Double Pica SC;
+}
+
+.restaurentimg1 {
+    width: 300px;
+    height: 400px;
+}
+
+
+.container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.aboutrestaurent2 {
+    padding-top: 90px;
+    font-size: 20px;
+    color: white;
+    font-family: IM FELL Double Pica SC;
+}
+
+.restaurentimg2 {
+    padding-top: 70px;
+    width: 500px;
+    height: 300px;
+}
+
+
+.rectangle2 {
+ width: 100%;
+
+}
+
+.contactus {
+    font-family: Kapakana;
+    color: rgb(233, 171, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.container2 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.column1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: right;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.contacts {
+    font-size: 40px;
+    padding-left: 200px;
+    font-family: Kapakana ;
+    color: rgb(72, 255, 0);
+    transition: 0.6s;
+}
+
+.contacts1 {
+  
+  color: white;
+  font-size: 15px;
+  font-family: IM FELL Double Pica SC;
+  padding-left: 90px;
+  
+}
+
+.column2 {
+   
+    flex-direction: column;
+    justify-content: center;
+  
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.column3 {
+    
+    flex-direction: column;
+    justify-content: center;
+   
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.container3 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+.contacts1:hover {
+    color: rgb(233, 171, 0);
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+@media (max-width:320px) {
+.rectangle1 {
+    height: 500vh;
+}
+
+    iframe {
+        width: 200px;
+        height: 300px;
+    }
+
+    .restaurentimg2 {
+        width: 200px;
+        height: 300px;
+    }
+
+
+}
